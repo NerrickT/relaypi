@@ -16,7 +16,7 @@ from pathlib import Path  # Need to re-write for python 2
 
 
 def sync_repo():
-    path = "~/GIT/relaypi"
+    path = "~/GIT/Python/relaypi"
     os.chdir(path)
     os.system("git pull")
     print("Repo sync has completed.")
