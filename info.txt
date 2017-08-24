@@ -1,4 +1,5 @@
 This is from keeping the repo in sync from the pi.
 
 # This is to keep the relaypi directory in sync with the git cloud
-*/1 * * * * su -s /bin/sh nobody -c 'cd ~/GIT/Python/relaypi && /usr/local/bin/git -q pull origin master'
+#*/1 * * * * su -s /bin/sh nobody -c 'cd ~/GIT/Python/relaypi && /usr/local/bin/git -q pull origin master'
+*/1 * * * * ~/GIT/Python/replaypi/cron_sync.py
